@@ -15,13 +15,10 @@ body {
 
 }
 
-.Instagram_Logo{
-	border: 2px solid black;
-	box-sizing: border-box;
-	width: 330px;
-	height: 80px;
-
+div.Float_Right{
+	float: right;
 }
+
 
 .Login{
 	background-color: #1c5380;
@@ -33,10 +30,21 @@ body {
 	border:1px solid black;
 	box-sizing: border-box;
 	padding-top: 10px;
-
+	margin: 0 110 0 0;
+	clear: left;
+}
+.Instagram_Logo{
+	border: 2px solid black;
+	box-sizing: border-box;
+	width: 330px;
+	height: 80px;
+	margin: 100 400 0 0;
 }
 
+
 .Phones{
+	float: left;
+	margin: 110 0 0 310;
 
 }
 
@@ -45,7 +53,7 @@ section.Large_Text{
 	border-radius: 25px;
 	box-sizing: border-box;
 	background-image: url("../images/frame.png")
-	background-image-width:500px;
+	background-size:500px;
 	width: 500px;
 	height: 380px;
 	padding: 13px;
@@ -67,10 +75,16 @@ section.Large_Text img{
 
 nav.LinkList{
 	color: #06365f ;
+	bottom: 50;
+	right: 480;
 	text-align: center;
 	font-weight: normal;
+	list-style-type: none;
+	position: absolute;
+	
 }
 
 nav.LinkList span{
 	color: grey;
+	
 }
