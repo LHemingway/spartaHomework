@@ -16,7 +16,11 @@ body {
 }
 
 .Instagram_Logo{
-	border-width: 2px solid black;
+	border: 2px solid black;
+	box-sizing: border-box;
+	width: 330px;
+	height: 80px;
+
 }
 
 .Login{
@@ -24,10 +28,12 @@ body {
 	width: 100px;
 	height: 50px;
 	text-align: center;
-	font-weight: bold;
+	font-weight: normal;
 	color: white;
 	border:1px solid black;
 	box-sizing: border-box;
+	padding-top: 10px;
+
 }
 
 .Phones{
@@ -39,4 +45,14 @@ section.Large_Text{
 	width: 300px;
 	height: 550px;
 
+}
+
+nav.LinkList{
+	color: #06365f ;
+	text-align: center;
+	font-weight: normal;
+}
+
+nav.LinkList span{
+	color: grey;
 }
