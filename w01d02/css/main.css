@@ -12,30 +12,26 @@ body {
 
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
-
 }
 
 div.Float_Right{
 	float: right;
 }
 
-
 .Login{
 	background-color: #1c5380;
 	width: 100px;
-	height: 50px;
+	height: 30px;
 	text-align: center;
 	font-weight: normal;
 	color: white;
-	border:1px solid black;
-	box-sizing: border-box;
-	padding-top: 10px;
+	padding-top: 5px;
 	margin: 0 110 0 0;
-	clear: left;
+	border-radius: 4px;
+	border: 1px solid black;
 }
+
 .Instagram_Logo{
-	border: 2px solid black;
-	box-sizing: border-box;
 	width: 330px;
 	height: 80px;
 	margin: 100 400 0 0;
@@ -45,19 +41,17 @@ div.Float_Right{
 .Phones{
 	float: left;
 	margin: 110 0 0 310;
-
 }
 
 section.Large_Text{
-	border: 1px solid black;
+	
 	border-radius: 25px;
 	box-sizing: border-box;
-	background-image: url("../images/frame.png")
-	background-size:500px;
+	background-image: url("../images/frame.png");
+	background-size: 100% 100%;
 	width: 500px;
 	height: 380px;
 	padding: 13px;
-
 }
 
 section.Large_Text h2{
@@ -70,6 +64,7 @@ section.Large_Text p{
 }
 
 section.Large_Text img{
+	padding-top: 20px;
 	padding-right: 16px;
 }
 
@@ -81,10 +76,8 @@ nav.LinkList{
 	font-weight: normal;
 	list-style-type: none;
 	position: absolute;
-	
 }
 
 nav.LinkList span{
 	color: grey;
-	
 }
