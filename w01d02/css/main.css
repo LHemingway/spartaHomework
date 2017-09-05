@@ -29,6 +29,7 @@ div.Float_Right{
 	margin: 0 110 0 0;
 	border-radius: 4px;
 	border: 1px solid black;
+
 }
 
 .Instagram_Logo{
@@ -51,12 +52,14 @@ section.Large_Text{
 	background-size: 100% 100%;
 	width: 500px;
 	height: 380px;
-	padding: 13px;
+	padding: 23px;
 }
 
 section.Large_Text h2{
 	font-size: 30px;
 	padding-bottom: 10px;
+	color: #06365f;
+	font-weight: normal;
 }
 
 section.Large_Text p{
