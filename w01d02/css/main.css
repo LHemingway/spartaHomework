@@ -42,6 +42,7 @@ div.Float_Right{
 .Phones{
 	float: left;
 	margin: 110 0 0 310;
+	position: absolute;
 }
 
 section.Large_Text{
@@ -73,12 +74,12 @@ section.Large_Text img{
 
 nav.LinkList{
 	color: #06365f ;
-	bottom: 50;
-	right: 480;
+	
 	text-align: center;
 	font-weight: normal;
 	list-style-type: none;
-	position: absolute;
+	clear: both;
+	padding-top: 100;
 }
 
 nav.LinkList span{
