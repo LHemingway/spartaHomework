@@ -7,8 +7,12 @@ h4{
 	text-decoration: underline;
 }
 
-.navvyNavZeBar li{
-	
+.navCol{
+	background-color: #92896B;
+}
+
+.red a{
+	color: #ECE4B7;
 }
 
 .jumbotron{
@@ -33,6 +37,10 @@ h4{
 .devCard{
 	background-color: #ECE4B7;
 	border-width: 8px;	
+	color: #02020B;
+}
+
+.devCard a{
 	color: #02020B;
 }
 
