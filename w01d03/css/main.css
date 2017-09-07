@@ -1,5 +1,14 @@
 body{
 	background-color: #ECE4B7;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+	text-decoration: underline;
+}
+
+.navvyNavZeBar li{
+	
 }
 
 .jumbotron{
@@ -12,7 +21,7 @@ body{
 }
 
 .caraClass h3{
-	color: red;
+	color: #02020B;
 }
 
 .lukesFace{
@@ -24,10 +33,12 @@ body{
 .devCard{
 	background-color: #ECE4B7;
 	border-width: 8px;	
+	color: #02020B;
 }
 
 .longCard{
 	background-color: #ECE4B7;
+	color: #02020B;
 	border-width: 8px;
 	margin-bottom: 30px;
 }
