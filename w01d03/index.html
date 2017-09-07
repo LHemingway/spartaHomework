@@ -1,62 +1,59 @@
 <!-- only need to use .col-(nofcol) and .col-md-(nofcol) -->
 <!DOCTYPE html>
- <html>
- <head>
- 	<title>My Website</title>
- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
- 	<link rel="stylesheet" type="text/css" href="main.css">
- </head>
- <body>
+<html>
+<head>
 
-	<div class="fakenavbar">
-  <div class="container">
-    <h2>Brand Name</h2>
-  </div>
-</div>
+	<title>Website</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
 
-  <div class="container"> 
-    <div class="jumbotron">
-      <div class="jumbotron-content">
-        <h1>Lorem ipsum...</h1>
-        <p class="jumbotron-lg-only">Join our community or login now</p>
-        <form name="user-info">
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" name="email" class="form-control" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" name="password" class="form-control" placeholder="Password">
-          </div>
-          <a href="#" class="btn btn-primary btn-large">Sign Up</a><a href="#" class="pull-right btn btn-default">Sign In</a>
-        </form>
-      </div>
-      <p class="img-credit">Image Dynamically Provided by <a href="http://lorempixel.com">LoremPixel</a></p>
-    </div>
-    
-    <h2>Remaining Content...</h2>
-  </div>
+	  <!-- JUMBOTRON -->
+<div class="container">
+	<div class="row">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="col-md-8">
+					<h1 class="display-3">Hello, world!</h1>
+					<p class="lead">This is a simple hero unit, a simple 	jumbotron-style componenforcalling 			extra attention to 	featured content or information.</p>
+					<hr class="my-4">
+					<p>It uses utility classes for typography and spacing to space 	content out within 	thlarger 	container.</p>
+					<p class="lead">
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more	</a>
+					</p>					
+	  		</div>
+			</div>
+		</div>
+	</div>	
 
-<div class="fakefooter">
-  Some footer text. &copy; 2015
-</div>
+	
+	<!--nav bar-->
 
 
-	<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
-	  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href=#v-pills-home" 		role="tab" aria-controls="v-pills-home" aria-expanded="true"Home</a>
-	  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href=#v-pills-profile" 		role="tab" aria-controls="v-pills-profile" aria-expanded=true">Profile</a>
-	  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href=#v-pills-messages" 		role="tab" aria-controls="v-pills-messages"aria-expanded="true">Messages</a>
-	  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href=#v-pills-settings" 		role="tab" aria-controls="v-pills-settings"aria-expanded="true">Settings</a>
-	</div>
-	<div class="tab-content" id="v-pills-tabContent">
-	  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"aria-labelledby="		v-pills-home-tab">...</div>
-	  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="	v-pills-profile-tab">...</div>
-	  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby=		"v-pills-messages-tab">...</div>
-	  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby=		v-pills-settings-tab">...</div>
-	</div>
- 
- </body>
- </html> 
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 		<a class="navbar-brand" href="#"></a>
+ 		
+ 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 			<ul class="nav flex-column">	  
+				<li class="nav-item">  
+					<a class="nav-link active" href="	#">Active</a>	
+				</li>	  
+				<li class="nav-item">  
+					<a class="nav-link" href="#">Link</a>	
+				</li>	  
+				<li class="nav-item">  
+					<a class="nav-link" href="#">Link</a>	
+				</li>	  
+				<li class="nav-item">  
+					<a class="nav-link disabled" href="#">Disabled</a>	 
+				</li>
+			</ul>	
+
+		</div>
+	</nav>
+
+
+</body>
+</html>
