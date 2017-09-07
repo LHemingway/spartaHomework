@@ -1,7 +1,47 @@
+body{
+	background-color: #ECE4B7;
+}
 
+.jumbotron{
+	background-color: #92896B;
+}
 
-.lukesFace {
+.caraClass{
+	margin-bottom: 30px;
+}
+
+.caraClass h3{
+	color: red;
+}
+
+.lukesFace{
 	width: 175px;
 	height: 175px;
 	display: inline-block;
+}
+
+.devCard{
+	background-color: #ECE4B7;
+	border-style: solid black;
+	border-width: 5px;	
+}
+
+.longCard{
+	background-color: #ECE4B7;
+	border-style: solid black;
+	border-width: 5px;
+	margin-bottom: 30px;
+}
+
+footer{
+	background-color: #92896B;
+	color: white;
+}	
+
+@media only screen and (max-width: 767px){
+
+.dissapearsmall{
+display: none
+}
+
 }
