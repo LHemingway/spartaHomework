@@ -4,6 +4,7 @@ body{
 
 .jumbotron{
 	background-color: #92896B;
+	color: #ECE4B7;
 }
 
 .caraClass{
@@ -22,21 +23,23 @@ body{
 
 .devCard{
 	background-color: #ECE4B7;
-	border-style: solid black;
-	border-width: 5px;	
+	border-width: 8px;	
 }
 
 .longCard{
 	background-color: #ECE4B7;
-	border-style: solid black;
-	border-width: 5px;
+	border-width: 8px;
 	margin-bottom: 30px;
 }
 
 footer{
 	background-color: #92896B;
-	color: white;
+	color: #ECE4B7;
 }	
+
+footer a{
+	color: #ECE4B7;
+}
 
 @media only screen and (max-width: 767px){
 
