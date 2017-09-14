@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", function(){
 	return val1 / val2; 
 	}
 
-	// function pow(val1, val2){
-	// sum = val1 ** val2; 
-	// }
+	function pow(val1, val2){
+	sum = Math.pow(val1, val2); 
+	}
 
-	// function sqroot(val1){
-	// sum = (Math.sqrt(val1));
-	// }
+	function sqroot(val1){
+	sum = (Math.sqrt(val1));
+	}
 
 	function clear(){
 		val1 = null;
@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function(){
 		buttonNos[i].addEventListener("click", function() {
 			if (val1 == null){
 			display.innerText = this.value;
-			val1=parseInt(this.value);
+			val1=parseFloat(this.value);
 		} else {
 			display.innerText = this.value;
-			val2 = parseInt(this.value);
+			val2 = parseFloat(this.value);
 		}
 		});
 	}
@@ -79,6 +79,10 @@ document.addEventListener("DOMContentLoaded", function(){
 			sum = multiply(val1, val2);
 		} else if (op1 === "/") {
 			sum = divide(val1, val2);
+		} else if (op1 === "**") {
+			sum = pow(val1, val2);
+		} else if (op1 === "sq"){
+			sum = sqroot(val1);
 		}
 		
 		display.innerText = sum;
