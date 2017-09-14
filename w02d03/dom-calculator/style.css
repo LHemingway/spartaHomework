@@ -3,7 +3,7 @@ main{
 	height: 500px;
 	width: 400px;
 	border: 2px solid black;
-	background-color: grey;
+	background-image: url(./images/Luke.jpg);
 }
 
 #display{
@@ -12,6 +12,8 @@ main{
 	margin: 10px auto;
 	border: 2px solid black;
 	background-color: white;
+	font-size: 35px;
+	
 }
 
 button{
