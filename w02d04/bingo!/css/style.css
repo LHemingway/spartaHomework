@@ -1,0 +1,38 @@
+div{
+	height: 150px;
+	text-align: center;
+}
+
+#player1 {
+	background-color: red;	
+}
+
+#player2 {
+	background-color: pink;
+}
+
+#playerText {
+	height: 80px;
+	background-color: orange;
+}
+
+#yelledNumbers {
+	background-color: blue;
+}
+
+.ball {
+	height: 50px;
+	width: 50px;
+	margin-top: 55px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 50px;
+	background-color: orange;
+}
+
+button {
+	height: 88px;
+	width: 804px;
+}
