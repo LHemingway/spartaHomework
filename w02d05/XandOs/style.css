@@ -1,0 +1,27 @@
+body{
+	background-color: #d2b6ea;
+}
+
+ul    {
+	background-color: #aedae2;
+    list-style-type: none;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding: 0;
+}
+
+li {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.reset{
+	height: 50px;
+	width: 100px;
+}
