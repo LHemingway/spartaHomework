@@ -2,7 +2,7 @@
 require_relative 'square.rb'
 
 side_length = Square.new(5)
-
+side_length.describe_area
 
 
 
@@ -12,7 +12,6 @@ side_length = Square.new(5)
 
 # side_length *= 10
 
-# scaled_area = calculate_area side_length
-# scaled_perimeter = calculate_perimeter side_length
+
 
 
