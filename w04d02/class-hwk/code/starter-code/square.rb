@@ -6,23 +6,28 @@ class Square
 	end
 
 	def calculate_area
-  	length ** 2
+  	self.side_length ** 2
 	end
 
 	def calculate_perimeter
-  	length * 4
+  	self.side_length * 4
 	end
 
 	def describe_area
-		area = calculate_area self.side_length
-		perimeter = calculate_perimeter self.side_length
-		puts "Area: #{area} Perimeter: #{perimeter}"
+		puts "Square"
+		puts "Area: #{self.calculate_area} Perimeter: #{self.calculate_perimeter}"
+	end
+
+	def scaled_area
+		(self.side_length *= 10) ** 2
+	end
+
+	def scaled_perimeter
+  	(self.side_length *= 10) * 4
 	end
 
 	def describe_scale
-		scaled_area = calculate_area side_length
-		scaled_perimeter = calculate_perimeter side_length
-		puts "Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
+		puts "Scaled by 10: Area: #{self.scaled_area} Perimeter: #{self.scaled_perimeter}"
 	end
 
 end
