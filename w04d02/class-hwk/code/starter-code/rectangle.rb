@@ -11,7 +11,7 @@ class Rectangle
 	end
 
 	def calculate_perimeter
-  	(self.length * self.width) * 2
+  	(self.length + self.width) * 2
 	end
 
 	def describe_rect
