@@ -8,14 +8,3 @@ side_length.describe_area
 side_length.describe_scale
 rectangle.describe_rect
 
-
-
-
-
-# scale the square by a factor of 10
-
-# side_length *= 10
-
-
-
-
