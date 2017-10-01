@@ -23,27 +23,27 @@ class Video
 		results.map { |result| self.hydrate (result) }
 	end
 
-	# def self.find id
-	# 	conn = self.open_connection
-	# 	sql = "SELECT * FROM video WHERE id =#{id} LIMIT 1;"
-	# 	results = conn.exec(sql)
-	# 	self.hydrate(results[0])
-	# end
+	def self.find id
+		conn = self.open_connection
+		sql = "SELECT * FROM video WHERE id =#{id} LIMIT 1;"
+		results = conn.exec(sql)
+		self.hydrate(results[0])
+	end
 
-	# def save
-	# 	conn = Video.open_connection
-	# 	if(!self.id)
-	# 		sql = "INSERT INTO post (title , body) VALUES ( '#{self.title}', '#{self.body}')"
-	#   else 
-	#     sql = "UPDATE post SET title='#{self.title}', body='#{self.body}' WHERE id = #{self.id}"
-	#   end
-	#   conn.exec(sql)
- #  end
+	def save
+		conn = Video.open_connection
+		if(!self.id)
+			sql = "INSERT INTO video (title , description, url) VALUES ( '#{self.title}', '#{self.description}', '#{self.url}')"
+	  else 
+	    sql = "UPDATE video SET title='#{self.title}', description='#{self.description}', url='#{self.url}' WHERE id = #{self.id}"
+	  end
+	  conn.exec(sql)
+  end
 
- #  def self.destroy id
- #  	conn = self.open_connection
- #  	sql = "DELETE FROM video WHERE id = #{id};"  	
- #  	conn.exec(sql)
- #  end
+  def self.destroy id
+  	conn = self.open_connection
+  	sql = "DELETE FROM video WHERE id = #{id};"  	
+  	conn.exec(sql)
+  end
 
 end
