@@ -28,7 +28,7 @@ class GamesApiController < Sinatra::Base
 	end
 
 		# Create
-	post "/api/games/:id/:title/:developer" do
+	post "/api/games" do
 		# new_post = {
 		# 	id: "",
 		# 	title: "",
@@ -40,7 +40,7 @@ class GamesApiController < Sinatra::Base
 		id = params[:id].to_i
 		title = params[:title]
 		developer = params[:developer]
-		json $games.push({id: id, title: title, developer: developer})
+		$games.push({id: id, title: title, developer: developer})
 
 		json $games
 	end
