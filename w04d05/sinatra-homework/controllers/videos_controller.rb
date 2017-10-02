@@ -52,28 +52,22 @@ class VideosController < Sinatra::Base
 
 	end
 
-	put '/id' do
+	put '/:id' do
 
 		id = params[:id].to_i
-
 		video = Video.find(id)
-
 		video.title = params[:title]
 		video.description = params[:description]
 		video.url = params[:url]
-
 		video.save
-
 		redirect "/"
 
-	end
+  end
 
 	delete '/:id' do
 
 		id = params[:id].to_i
-
 		Video.destroy(id)
-
 		redirect "/"
 
 	end
@@ -81,9 +75,7 @@ class VideosController < Sinatra::Base
 	get '/:id/edit' do
 
 		id = params[:id].to_i
-
 		@video = Video.find(id)
-
 		erb :'posts/edit'
 
 	end

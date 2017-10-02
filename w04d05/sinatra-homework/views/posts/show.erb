@@ -1,6 +1,11 @@
-<h1><%= @video.title %></h1>
-<p><%= @video.description %></p>
-<a href="/<%= @video.id %>/edit">edit</a>
+
+<div class="card" style="width: 40rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title"><%= @video.title %></h4>
+    <p class="card-text"><%= @video.description %></p>
+	<a href="/<%= @video.id %>/edit">edit</a>  </div>
+</div>
 
 <form action="/<%= @video.id %>" method="POST">
 	<input type="hidden" name="_method" value="DELETE">

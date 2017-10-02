@@ -1,8 +1,14 @@
-<h1>Welcome to Youtube</h1>
+<div class="container">
 
-<% @videos.each do |video| %>
-<div>
-	<h3><a href="/<%= video.id %>"><%= video.title %></a></h3>
-	<p><%= video.description%></p>
+	<h1>Welcome to Youtube</h1>
+
+	<divc class="row">		
+		<% @videos.each do |video| %>
+			<div class="col-6 col-md-4">
+				<h3><a href="/<%= video.id %>"><%= video.title %></a></h3>
+				<p><%= video.description%></p>
+			</div>
+		<% end %>
+	</div>
+
 </div>
-<% end %>
